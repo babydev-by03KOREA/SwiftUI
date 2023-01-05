@@ -11,7 +11,7 @@ import SwiftUI
 struct uiSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ListViewNav()
+            WebView(urlToLoad: "https://bright-maamoul-952ba3.netlify.app/#/").edgesIgnoringSafeArea(.bottom).preferredColorScheme(.light)
         }
     }
 }

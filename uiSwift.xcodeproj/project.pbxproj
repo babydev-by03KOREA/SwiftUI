@@ -51,7 +51,7 @@
 		9C7E134C29665BA0006347B4 /* uiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiSwiftUITests.swift; sourceTree = "<group>"; };
 		9C7E134E29665BA0006347B4 /* uiSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9CACFC6329666DEB00A83DB4 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
-		9CACFC65296677D100A83DB4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9CACFC65296677D100A83DB4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
 		9CACFC672966788800A83DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9CACFC682966949C00A83DB4 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		9CACFC6B296698E500A83DB4 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
@@ -107,13 +107,13 @@
 		9C7E133029665B9F006347B4 /* uiSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9CACFC712966AFA500A83DB4 /* WebView */,
 				9CACFC672966788800A83DB4 /* Info.plist */,
 				9C7E133129665B9F006347B4 /* uiSwiftApp.swift */,
 				9C7E133329665B9F006347B4 /* ContentView.swift */,
 				9C7E133529665BA0006347B4 /* Assets.xcassets */,
 				9C7E133729665BA0006347B4 /* Preview Content */,
 				9CACFC6329666DEB00A83DB4 /* UserForm.swift */,
-				9CACFC65296677D100A83DB4 /* WebView.swift */,
 				9CACFC682966949C00A83DB4 /* StackView.swift */,
 				9CACFC6B296698E500A83DB4 /* ClockView.swift */,
 				9CACFC6D29669B7300A83DB4 /* ListViewNav.swift */,
@@ -145,6 +145,14 @@
 				9C7E134E29665BA0006347B4 /* uiSwiftUITestsLaunchTests.swift */,
 			);
 			path = uiSwiftUITests;
+			sourceTree = "<group>";
+		};
+		9CACFC712966AFA500A83DB4 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				9CACFC65296677D100A83DB4 /* WebView.swift */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +458,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,6 +490,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
