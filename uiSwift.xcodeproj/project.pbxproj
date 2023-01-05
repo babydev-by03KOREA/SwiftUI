@@ -14,6 +14,12 @@
 		9C7E134329665BA0006347B4 /* uiSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E134229665BA0006347B4 /* uiSwiftTests.swift */; };
 		9C7E134D29665BA0006347B4 /* uiSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E134C29665BA0006347B4 /* uiSwiftUITests.swift */; };
 		9C7E134F29665BA0006347B4 /* uiSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E134E29665BA0006347B4 /* uiSwiftUITestsLaunchTests.swift */; };
+		9CACFC6429666DEC00A83DB4 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACFC6329666DEB00A83DB4 /* UserForm.swift */; };
+		9CACFC66296677D100A83DB4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACFC65296677D100A83DB4 /* WebView.swift */; };
+		9CACFC692966949C00A83DB4 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACFC682966949C00A83DB4 /* StackView.swift */; };
+		9CACFC6C296698E500A83DB4 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACFC6B296698E500A83DB4 /* ClockView.swift */; };
+		9CACFC6E29669B7300A83DB4 /* ListViewNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACFC6D29669B7300A83DB4 /* ListViewNav.swift */; };
+		9CACFC702966A70300A83DB4 /* AirlineDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACFC6F2966A70300A83DB4 /* AirlineDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		9C7E134829665BA0006347B4 /* uiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7E134C29665BA0006347B4 /* uiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiSwiftUITests.swift; sourceTree = "<group>"; };
 		9C7E134E29665BA0006347B4 /* uiSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CACFC6329666DEB00A83DB4 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
+		9CACFC65296677D100A83DB4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9CACFC672966788800A83DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9CACFC682966949C00A83DB4 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		9CACFC6B296698E500A83DB4 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		9CACFC6D29669B7300A83DB4 /* ListViewNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewNav.swift; sourceTree = "<group>"; };
+		9CACFC6F2966A70300A83DB4 /* AirlineDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +107,17 @@
 		9C7E133029665B9F006347B4 /* uiSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9CACFC672966788800A83DB4 /* Info.plist */,
 				9C7E133129665B9F006347B4 /* uiSwiftApp.swift */,
 				9C7E133329665B9F006347B4 /* ContentView.swift */,
 				9C7E133529665BA0006347B4 /* Assets.xcassets */,
 				9C7E133729665BA0006347B4 /* Preview Content */,
+				9CACFC6329666DEB00A83DB4 /* UserForm.swift */,
+				9CACFC65296677D100A83DB4 /* WebView.swift */,
+				9CACFC682966949C00A83DB4 /* StackView.swift */,
+				9CACFC6B296698E500A83DB4 /* ClockView.swift */,
+				9CACFC6D29669B7300A83DB4 /* ListViewNav.swift */,
+				9CACFC6F2966A70300A83DB4 /* AirlineDetail.swift */,
 			);
 			path = uiSwift;
 			sourceTree = "<group>";
@@ -257,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CACFC6429666DEC00A83DB4 /* UserForm.swift in Sources */,
+				9CACFC6C296698E500A83DB4 /* ClockView.swift in Sources */,
+				9CACFC6E29669B7300A83DB4 /* ListViewNav.swift in Sources */,
+				9CACFC66296677D100A83DB4 /* WebView.swift in Sources */,
 				9C7E133429665B9F006347B4 /* ContentView.swift in Sources */,
+				9CACFC702966A70300A83DB4 /* AirlineDetail.swift in Sources */,
 				9C7E133229665B9F006347B4 /* uiSwiftApp.swift in Sources */,
+				9CACFC692966949C00A83DB4 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +446,7 @@
 				DEVELOPMENT_TEAM = 8GBVM29B93;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uiSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +476,7 @@
 				DEVELOPMENT_TEAM = 8GBVM29B93;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uiSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
